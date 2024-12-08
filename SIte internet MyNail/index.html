@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Nail - réalison vos plus grand rêve</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/96dcb489df.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <section id="container">
+        <header>
+            <div class="logo">
+                <p>MyNail</p>
+            </div>
+            
+            <div class="menu-toggle"></div>
+
+            <ul class="menu">
+                <li><a href="#container">acceuil</a></li>
+                <li><a href="#a-propos">à propos</a></li>
+                <li><a href="#gallerie">Nos ongles</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a class="connexion" href="#">Connexion</a></li>
+
+            </ul>
+
+        </header>
+        
+        <div class="container-text">
+            <h1>Les Ongles, une passion</h1>
+            <p>Les ongles c'est beaux, mais nos ongles sont encore plus beaux que tous !</p>
+            <a href="#">Passer Commande</a>
+        </div>
+    </section>
+
+    <section id="a-propos">
+        <div>
+            <p class="tittle-section">à propos</p>
+            <h1 class="sub-tittle-section">Qui somme nous </h1>
+            <div class="description-photo">
+                    <div class="desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nulla sint esse quam debitis sapiente, quis dicta obcaecati itaque alias exercitationem ipsam dolore corrupti aliquam suscipit ipsum fuga voluptas laudantium.</p>
+                        
+                        <H2>NOS SERVICES</H2>
+                        <div class="list-services">
+                            <div class="service">
+                                <p>RAPIDE</p>
+                            </div>
+                            <div class="service">
+                                <p>BONNE AFFAIRE</p>
+                            </div>
+                            <div class="service">
+                                <p>FIABLE</p>
+                            </div>
+                        </div>
+                </div>
+                <img src="images.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="gallerie">
+        <p class="tittle-section">NOS ONGLES</p>
+        <h1 class="sub-tittle-section">Les ongles de vos rêves</h1>
+        <div class="liste-photo">
+            <div class="gallerie-img">
+                <img src="ongles 1.png" alt="">
+                <div class="show-country"><p>ONGLES</p></div>
+            </div>
+            <div class="gallerie-img">
+                <img src="ongles 2.png" alt="">
+                <div class="show-country"><p>ONGLES</p></div>
+            </div>
+            <div class="gallerie-img">
+                <img src="ongles 3.png" alt="">
+                <div class="show-country"><p>ONGLES</p></div>
+            </div>
+            <div class="gallerie-img">
+                <img src="ongles 4.png" alt="">
+                <div class="show-country"><p>ONGLES</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <p class="tittle-section">Contact</p>
+        <h1 class="sub-tittle-section">Formulaire de contact</h1>
+        <div>
+     
+            <div class="images-contact">
+                <img src="ongles 5.jpg" alt="">
+            </div>
+    </section>
+
+    <footer>
+        <p>Copyright Slyzz Dev</p>
+    </footer>
+
+<script>
+    var menu_toggle = document.querySelector('header .menu-toggle');
+    var menu = document.querySelector('header .menu')
+    menu_toggle.onclick = function(){
+        menu_toggle.classList.toggle('active');
+        menu.classList.toggle('responsive');
+    }
+</script>
+
+
+
+</body>
+</html>
